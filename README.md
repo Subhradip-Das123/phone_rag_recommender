@@ -1,0 +1,1 @@
+AI Smartphone Recommendation System (RAG) is a Streamlit-based web application that recommends the best smartphones based on a user’s budget. The system combines rule-based filtering, heuristic ranking, and Retrieval-Augmented Generation (RAG) to deliver accurate and relevant recommendations.
