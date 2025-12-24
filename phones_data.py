@@ -18,6 +18,9 @@ PHONES = [
 
     ("Redmi A4 5G", 8299, "Best entry-level phone, long battery life",
      "https://www.amazon.in/s?k=redmi+a4+5g"),
+    
+    ("Poco C85 5G", 9499, "Affordable 2025 entry-level 5G",
+     "https://www.flipkart.com/search?q=poco+c85+5g"),
 
 
     # ================= UNDER 20K =================
@@ -35,6 +38,9 @@ PHONES = [
 
     ("Samsung Galaxy A35 5G", 18999, "AMOLED display, balanced performance",
      "https://www.flipkart.com/samsung-galaxy-a35-5g"),
+
+    ("Redmi Note 14 5G", 17999, "Great display and fast charging",
+     "https://www.amazon.in/s?k=redmi+note+14+5g"),
 
 
     # ================= UNDER 30K =================
@@ -59,14 +65,11 @@ PHONES = [
     ("iQOO Neo 10R", 26999, "Excellent gaming performance",
      "https://www.flipkart.com/search?q=iqoo+neo+10r"),
 
-    ("OnePlus Nord CE 3 5G", 26999, "Fast charging, AMOLED display",
-     "https://www.amazon.in/s?k=oneplus+nord+ce+3"),
+    ("Poco X7 Pro 5G", 23999, "2025 Performance king under 25k",
+     "https://www.flipkart.com/poco-x7-pro-5g"),
 
-    ("Realme GT Neo 3", 29999, "Powerful gaming phone",
-     "https://www.flipkart.com/search?q=realme+gt+neo+3"),
-
-    ("Samsung Galaxy A25 Ultra", 28999, "Good camera, long software support",
-     "https://www.amazon.in/s?k=samsung+galaxy+a25+ultra"),
+    ("Samsung Galaxy A26 5G", 24499, "Solid battery and brand trust",
+     "https://www.amazon.in/s?k=samsung+galaxy+a26"),
 
 
     # ================= UNDER 40K =================
@@ -76,117 +79,77 @@ PHONES = [
     ("OnePlus 11R", 38999, "Snapdragon flagship power",
      "https://www.amazon.in/s?k=oneplus+11r"),
 
-    ("Samsung Galaxy S21 FE", 39999, "Premium camera and display",
-     "https://www.flipkart.com/search?q=samsung+s21+fe"),
+    ("Realme GT 7", 35999, "High-performance gaming phone",
+     "https://www.flipkart.com/search?q=realme+gt+7"),
 
-    ("Google Pixel 7a", 36999, "Camera-focused compact phone",
-     "https://www.amazon.in/s?k=pixel+7a"),
+    ("Samsung Galaxy A56", 38999, "Premium mid-range with Exynos 1580",
+     "https://www.amazon.in/s?k=samsung+galaxy+a56"),
 
-    ("Motorola Edge 40 Pro", 36999, "Near-flagship performance",
-     "https://www.flipkart.com/search?q=motorola+edge+40+pro"),
+    ("Oppo Reno 13 Pro", 37999, "Excellent portrait photography",
+     "https://www.flipkart.com/search?q=oppo+reno+13+pro"),
 
-    ("Realme GT 6 Pro", 35999, "Snapdragon 8s Gen 3",
-     "https://www.flipkart.com/search?q=realme+gt+6+pro"),
-
-    ("Vivo V30 Pro", 37999, "Excellent portrait camera",
-     "https://www.flipkart.com/search?q=vivo+v30+pro"),
-
-    ("iQOO Neo 9", 36999, "Powerful gaming phone",
-     "https://www.flipkart.com/search?q=iqoo+neo+9"),
-
-    ("Samsung Galaxy A55 5G", 34999, "Reliable performance",
-     "https://www.amazon.in/s?k=samsung+galaxy+a55+5g"),
-
-    ("OnePlus Nord 3 5G", 33999, "Balanced flagship-level performance",
-     "https://www.amazon.in/s?k=oneplus+nord+3+5g"),
+    ("Vivo V50 Pro", 39999, "Ultra-slim design, flagship cameras",
+     "https://www.flipkart.com/search?q=vivo+v50+pro"),
 
 
     # ================= UNDER 50K =================
-    ("OnePlus 12R", 42999, "Flagship performance, LTPO display",
-     "https://www.amazon.in/s?k=oneplus+12r"),
+    ("OnePlus 13R", 42999, "Snapdragon 8 Gen 3, 6000mAh battery",
+     "https://www.oneplus.in/13r"),
 
     ("iPhone 13", 49999, "Camera, video, long-term support",
      "https://www.amazon.in/s?k=iphone+13"),
 
-    ("Samsung Galaxy S22", 47999, "Compact Android flagship",
-     "https://www.flipkart.com/search?q=samsung+galaxy+s22"),
+    ("Nothing Phone (3)", 45999, "Flagship specs with Glyph UI",
+     "https://www.flipkart.com/search?q=nothing+phone+3"),
 
-    ("Nothing Phone (2)", 44999, "Clean UI, premium build",
-     "https://www.flipkart.com/search?q=nothing+phone+2"),
+    ("Realme GT 7 Pro", 48999, "Snapdragon 8 Elite flagship",
+     "https://www.amazon.in/s?k=realme+gt+7+pro"),
 
-    ("Google Pixel 8", 46999, "Stock Android, great camera",
-     "https://www.amazon.in/s?k=google+pixel+8"),
-
-    ("iQOO 12X", 43999, "Powerful performance",
-     "https://www.flipkart.com/search?q=iqoo+12x"),
-
-    ("Vivo X90", 48999, "Premium camera-focused phone",
-     "https://www.flipkart.com/search?q=vivo+x90"),
-
-    ("Realme GT 6T", 41999, "Balanced performance",
-     "https://www.flipkart.com/search?q=realme+gt+6t"),
-
-    ("Oppo Reno 12 Pro 5G", 47999, "Premium design & camera",
-     "https://www.amazon.in/s?k=oppo+reno+12+pro+5g"),
+    ("Google Pixel 9a", 44999, "Best AI and camera experience",
+     "https://www.amazon.in/s?k=pixel+9a"),
 
 
     # ================= UNDER 60K =================
-    ("Samsung Galaxy S23", 54999, "Best compact Android flagship",
-     "https://www.amazon.in/s?k=samsung+galaxy+s23"),
+    ("Samsung Galaxy S24 FE", 54999, "Galaxy AI at a better price",
+     "https://www.amazon.in/s?k=samsung+galaxy+s24+fe"),
 
-    ("iPhone 14", 59999, "Excellent camera and video",
-     "https://www.amazon.in/s?k=iphone+14"),
+    ("iPhone 15", 58999, "Modern design with Dynamic Island",
+     "https://www.amazon.in/s?k=iphone+15"),
 
-    ("Google Pixel 7 Pro", 58999, "Top-tier camera + AI",
-     "https://www.amazon.in/s?k=pixel+7+pro"),
+    ("Xiaomi 15", 59999, "Leica cameras, Snapdragon 8 Elite",
+     "https://www.amazon.in/s?k=xiaomi+15"),
 
-    ("OnePlus 12", 59999, "Flagship Snapdragon performance",
-     "https://www.amazon.in/s?k=oneplus+12"),
-
-
-    # ================= UNDER 70K =================
-    ("Samsung Galaxy S23+", 64999, "Big display flagship",
-     "https://www.amazon.in/s?k=samsung+galaxy+s23+plus"),
-
-    ("Google Pixel 8 Pro", 68999, "Top-tier Android camera",
-     "https://www.amazon.in/s?k=pixel+8+pro"),
-
-    ("iPhone 16", 69999, "Latest iPhone generation",
-     "https://www.flipkart.com/apple-iphone-16"),
+    ("OnePlus 13", 62999, "Ultimate OnePlus flagship for 2025",
+     "https://www.oneplus.in/13"),
 
 
     # ================= UNDER 80K =================
-    ("Samsung Galaxy S24", 78999, "Galaxy AI flagship",
-     "https://www.amazon.in/s?k=samsung+galaxy+s24"),
-
-    ("iPhone 15", 79999, "Best overall iPhone",
-     "https://www.amazon.in/s?k=iphone+15"),
-
-    ("Samsung Galaxy Z Flip 5", 79999, "Premium foldable",
-     "https://www.amazon.in/s?k=galaxy+z+flip+5"),
-
-
-    # ================= UNDER 90K =================
-    ("OnePlus 15", 75999, "Latest OnePlus flagship",
-     "https://www.amazon.in/s?k=oneplus+15"),
-
-    ("Vivo X300", 75999, "Premium camera flagship",
-     "https://www.amazon.in/s?k=vivo+x300"),
-
-    ("iQOO 15", 72999, "Top-tier gaming performance",
-     "https://www.amazon.in/s?k=iqoo+15"),
-
-    ("Realme GT 8 Pro", 72999, "Flagship-level performance",
-     "https://www.amazon.in/s?k=realme+gt+8+pro"),
-
-    ("Samsung Galaxy S25 5G", 71999, "Next-gen Galaxy flagship",
+    ("Samsung Galaxy S25", 74999, "Compact powerhouse with AI",
      "https://www.amazon.in/s?k=samsung+galaxy+s25"),
 
+    ("iPhone 16", 72999, "Latest standard iPhone",
+     "https://www.flipkart.com/apple-iphone-16"),
 
-    # ================= UNDER 100K =================
-    ("Samsung Galaxy S25 Ultra", 99999, "Best camera, S-Pen powerhouse",
+    ("Vivo X200", 67999, "Zeiss Optics, Dimensity 9400",
+     "https://www.flipkart.com/search?q=vivo+x200"),
+
+    ("Oppo Find X8", 69999, "Flagship Hasselblad cameras",
+     "https://www.flipkart.com/search?q=oppo+find+x8"),
+
+
+    # ================= UNDER 100K+ =================
+    ("Samsung Galaxy S25 Ultra", 124999, "Titanium build, S-Pen powerhouse",
      "https://www.amazon.in/s?k=samsung+galaxy+s25+ultra"),
 
-    ("iPhone 16 Pro", 99999, "Apple flagship with AI",
+    ("iPhone 16 Pro", 119999, "Pro cameras and Titanium design",
      "https://www.amazon.in/s?k=iphone+16+pro"),
+
+    ("Vivo X200 Pro", 94999, "200MP periscope zoom lens",
+     "https://www.flipkart.com/search?q=vivo+x200+pro"),
+
+    ("Xiaomi 15 Ultra", 109999, "Professional Leica photography",
+     "https://www.amazon.in/s?k=xiaomi+15+ultra"),
+
+    ("iPhone 17 Air", 105999, "Ultra-thin revolutionary design",
+     "https://www.apple.com/in/iphone/"),
 ]
