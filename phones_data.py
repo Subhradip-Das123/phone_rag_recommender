@@ -23,7 +23,7 @@ PHONES = [
      "https://www.flipkart.com/search?q=poco+c85+5g"),
 
 
-    # ================= UNDER 20K =================
+# ================= UNDER 20K =================
     ("POCO X7 5G", 18999, "Excellent specs and value for money",
      "https://www.flipkart.com/poco-x7-5g"),
 
@@ -41,6 +41,36 @@ PHONES = [
 
     ("Redmi Note 14 5G", 17999, "Great display and fast charging",
      "https://www.amazon.in/s?k=redmi+note+14+5g"),
+
+    ("Moto G85 5G", 17999, "3D Curved pOLED display, sleek design",
+     "https://www.flipkart.com/motorola-g85-5g"),
+
+    ("Vivo T3 5G", 19999, "Fast Dimensity 7200 processor",
+     "https://www.flipkart.com/vivo-t3-5g"),
+
+    ("Samsung Galaxy M35 5G", 16999, "Massive 6000mAh battery, sAMOLED 120Hz",
+     "https://www.amazon.in/s?k=samsung+m35"),
+
+    ("Infinix Note 50 Pro", 18999, "120W fast charging, 144Hz display",
+     "https://www.flipkart.com/search?q=infinix+note+50+pro"),
+
+    ("Poco M7 Pro 5G", 15999, "Best budget gaming performance",
+     "https://www.flipkart.com/search?q=poco+m7+pro"),
+
+    ("OnePlus Nord CE 4 Lite", 19999, "Reliable battery, OxygenOS experience",
+     "https://www.amazon.in/s?k=oneplus+nord+ce+4+lite"),
+
+    ("iQOO Z9 Lite 5G", 14499, "Durable build, decent entry 5G performance",
+     "https://www.amazon.in/s?k=iqoo+z9+lite"),
+
+    ("Realme Narzo 70 Pro", 18999, "Horizon glass design, Sony IMX890 OIS",
+     "https://www.amazon.in/s?k=realme+narzo+70+pro"),
+
+    ("Lava Agni 3", 19999, "Dual AMOLED displays, Action key",
+     "https://www.amazon.in/s?k=lava+agni+3"),
+
+    ("Vivo Y59 5G", 16999, "Slim design, great daylight photography",
+     "https://www.flipkart.com/search?q=vivo+y59"),
 
 
     # ================= UNDER 30K =================
