@@ -1,6 +1,6 @@
 PHONES = [
 
-    # ================= UNDER 10K =================
+    #  UNDER 10K
     ("Poco M7 5G", 9299, "Best entry-level phone, long battery life",
      "https://www.flipkart.com/poco-m7-5g/p/itmf030852464eef"),
 
@@ -23,7 +23,7 @@ PHONES = [
      "https://www.flipkart.com/search?q=poco+c85+5g"),
 
 
-# ================= UNDER 20K =================
+#  UNDER 20K 
     ("POCO X7 5G", 18999, "Excellent specs and value for money",
      "https://www.flipkart.com/poco-x7-5g"),
 
@@ -73,7 +73,7 @@ PHONES = [
      "https://www.flipkart.com/search?q=vivo+y59"),
 
 
-    # ================= UNDER 30K =================
+    #  UNDER 30K 
     ("Motorola Edge 60 Fusion", 22999, "Clean UI, balanced performance",
      "https://www.flipkart.com/motorola-edge-60-fusion"),
 
@@ -102,7 +102,7 @@ PHONES = [
      "https://www.amazon.in/s?k=samsung+galaxy+a26"),
 
 
-    # ================= UNDER 40K =================
+    # UNDER 40K
     ("iQOO Neo 7 Pro", 34999, "Flagship gaming performance",
      "https://www.amazon.in/s?k=iqoo+neo+7+pro"),
 
@@ -122,7 +122,7 @@ PHONES = [
      "https://www.flipkart.com/search?q=vivo+v50+pro"),
 
 
-    # ================= UNDER 50K =================
+    # UNDER 50K 
     ("OnePlus 13R", 42999, "Snapdragon 8 Gen 3, 6000mAh battery",
      "https://www.oneplus.in/13r"),
 
@@ -139,7 +139,7 @@ PHONES = [
      "https://www.amazon.in/s?k=pixel+9a"),
 
 
-    # ================= UNDER 60K =================
+    # UNDER 60K 
     ("Samsung Galaxy S24 FE", 54999, "Galaxy AI at a better price",
      "https://www.amazon.in/s?k=samsung+galaxy+s24+fe"),
 
@@ -153,7 +153,7 @@ PHONES = [
      "https://www.oneplus.in/13"),
 
 
-    # ================= UNDER 80K =================
+    # UNDER 80K 
     ("Samsung Galaxy S25", 74999, "Compact powerhouse with AI",
      "https://www.amazon.in/s?k=samsung+galaxy+s25"),
 
@@ -167,7 +167,7 @@ PHONES = [
      "https://www.flipkart.com/search?q=oppo+find+x8"),
 
 
-    # ================= UNDER 100K+ =================
+    # UNDER 100K+ 
     ("Samsung Galaxy S25 Ultra", 124999, "Titanium build, S-Pen powerhouse",
      "https://www.amazon.in/s?k=samsung+galaxy+s25+ultra"),
 
@@ -183,3 +183,4 @@ PHONES = [
     ("iPhone 17 Air", 105999, "Ultra-thin revolutionary design",
      "https://www.apple.com/in/iphone/"),
 ]
+
