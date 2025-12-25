@@ -6,10 +6,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from phones_data import PHONES
 
-# =====================================================
 # STREAMLIT CONFIG
-# =====================================================
-
 st.set_page_config(
     page_title="AI Smartphone Recommendation (RAG)",
     page_icon="📱",
@@ -19,10 +16,7 @@ st.set_page_config(
 st.title("📱 AI Smartphone Recommendation (RAG)")
 st.write("Ask things like: **best phones under 90000**")
 
-# =====================================================
 # LOAD HEAVY RESOURCES (CACHED)
-# =====================================================
-
 @st.cache_resource
 def load_resources():
     embeddings = HuggingFaceEmbeddings(
@@ -35,10 +29,8 @@ def load_resources():
     )
     return embeddings, generator
 
-# =====================================================
-# HELPER FUNCTIONS
-# =====================================================
 
+# HELPER FUNCTIONS
 def extract_budget(query):
     match = re.search(r"under\s*(\d+)", query)
     return int(match.group(1)) if match else None
@@ -55,19 +47,19 @@ def phone_score(phone):
 
 
 def recommend_phones(query, budget, embeddings, generator):
-    # 1️⃣ Budget filter
+    # 1️ Budget filter
     eligible = [p for p in PHONES if p[1] <= budget]
 
     if not eligible:
         return "❌ No phones found in this budget."
 
-    # 2️⃣ Rank by quality
+    # 2️ Rank by quality
     eligible.sort(key=phone_score, reverse=True)
 
-    # 3️⃣ Keep top-quality phones only
+    # 3️ Keep top-quality phones only
     top_candidates = eligible[:12]
 
-    # 4️⃣ Create documents
+    # 4️ Create documents
     docs = []
     for name, price, desc, link in top_candidates:
         docs.append(
@@ -81,14 +73,14 @@ Buy Link: {link}
             )
         )
 
-    # 5️⃣ Semantic retrieval
+    # 5️ Semantic retrieval
     vector_db = FAISS.from_documents(docs, embeddings)
     retriever = vector_db.as_retriever(search_kwargs={"k": 4})
     retrieved_docs = retriever.invoke(query)
 
     context = "\n\n".join(doc.page_content for doc in retrieved_docs)
 
-    # 6️⃣ Generation
+    # 6️ Generation
     prompt = f"""
 
 Context:
@@ -107,10 +99,7 @@ Requirements:
     output = generator(prompt)
     return output[0]["generated_text"]
 
-# =====================================================
 # APP UI
-# =====================================================
-
 with st.spinner("🔄 Loading AI resources..."):
     embeddings, generator = load_resources()
 
@@ -132,3 +121,4 @@ if query:
 
         st.subheader("✅ Recommended Phones")
         st.markdown(result)
+
